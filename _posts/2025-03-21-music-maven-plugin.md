@@ -21,8 +21,8 @@ Presenting the [**Music Maven Plugin**](https://github.com/xdev-software/music-m
 * Lean back and listen to your favorite elevator music while the build is doing whatever it is doing!
 * Bored of always hearing the same music? Not with our player!<br/>You can add multiple different songs and let the player shuffle through them.
 * If you add and commit the plugin to your repo, you can share the awesome experience and also let your colleagues listen to music!
-* Winner the "Best Java Music Player of 2025" award <sup>probably</sup>
-* Can run on at least 3 billion devices! <sup>may only work properly if they have an audio output</sup>
+* Winner of "Best Java Music Player of 2025" award <sup>probably</sup>
+* Can run on at least [3 billion devices](https://i.sstatic.net/Jteqd.png)! <sup>may only work properly if they have an audio output</sup>
 * Integration with _Maven Music TOP 100 Charts_ in the works! <sup>Country music currently in 1st place</sup>
 
 Interested?
