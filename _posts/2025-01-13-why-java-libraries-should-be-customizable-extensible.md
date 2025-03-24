@@ -17,7 +17,7 @@ I now chose to write a post about this topic
 So after getting asked - like the 50th time - during java library development:
 * Why are you using Interfaces, Builders, Factories?
 * Why is all of your code using ``protected`` and not ``private``?
-* Why are you only using ``final`` for ``static`` classes?
+* Why are you only using ``final`` on ``static`` classes?
 * Why are there so many configuration options?
 
 The short answer: Too keep the library customizable/extensible!
@@ -27,10 +27,13 @@ The short answer: Too keep the library customizable/extensible!
 ### Usual arguments against this approach
 
 A lot of people I encountered and talked about this said something like: 
-* This will never be used in that way!
+* "This will never be used in that way!"
    * Well someone (me) is using it _that way_ so...
-* You are using it wrong! Don't do that!
+* "You are using it wrong! Don't do that!"
    * I'm using it the way I need to.<br/>If you can provide a better solution that works for me than please do so.
+* "Submit your changes as a PR!"
+    * This might not be feasible for extremely special project based changes
+    * I have to pray that this get's merged and released and I don't have to wait 6+ months
 
 Also what is the problem with e.g. keeping code ``protected`` or removing the ``final`` from a method?
 There are 0 drawbacks for the library and only benefits for the implementer.
