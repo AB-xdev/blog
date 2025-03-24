@@ -28,6 +28,8 @@ Presenting the [**Music Maven Plugin**](https://github.com/xdev-software/music-m
 Interested?
 Check it out [on GitHub](https://github.com/xdev-software/music-maven-plugin/) (while stocks last).
 
+<br/>
+
 _Disclaimer:
 We are not liable for build errors that terminate your music abruptly (picture related)_
 
