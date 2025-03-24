@@ -32,8 +32,8 @@ A lot of people I encountered and talked about this said something like:
 * "You are using it wrong! Don't do that!"
    * I'm using it the way I need to.<br/>If you can provide a better solution that works for me than please do so.
 * "Submit your changes as a PR!"
-    * This might not be feasible for extremely special project based changes
-    * I have to pray that this get's merged and released and I don't have to wait 6+ months
+    * This might not be feasible for extremely special changes that are only needed for one downstream project
+    * I have to pray that this get's reviewed, merged and released and I don't have to wait 6+ months for that to happen
 
 Also what is the problem with e.g. keeping code ``protected`` or removing the ``final`` from a method?
 There are 0 drawbacks for the library and only benefits for the implementer.
@@ -105,7 +105,7 @@ class MyApp {
   public static void run(String[] args) {
     new DatabaseContainerWithPortCheck().start(); 
     // Encapsulation preserved:
-    // isStarted can't be accessed since it's not public
+    // isStarted can't be directly accessed as it's not public
   }
 }
 ```
