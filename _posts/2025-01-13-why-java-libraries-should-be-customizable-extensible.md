@@ -153,7 +153,7 @@ class MyApp {
   </tr>
   <tr>
     <td><a href="https://hibernate.atlassian.net/browse/HHH-18873">Hibernate Annotation Processor - Entity Indexing</a></td>
-    <td><a href="https://hibernate.atlassian.net/browse/HHH-18162?focusedCommentId=117262">No mention anywhere in changelogs.<br/>No option/flag to disable this; active by default.</a><a href="https://hibernate.atlassian.net/browse/HHH-18162?focusedCommentId=117274">Functionality is useless for some cases</a> and <a href="https://hibernate.atlassian.net/browse/HHH-18863">performance problems</a>.<br/>No way to overwrite the code since fields and methods are private.</td>
+    <td><a href="https://hibernate.atlassian.net/browse/HHH-18162?focusedCommentId=117262">No mention anywhere in changelogs.<br/>No option/flag to disable this; active by default.</a> <a href="https://hibernate.atlassian.net/browse/HHH-18162?focusedCommentId=117274">Functionality is useless for some cases</a> and <a href="https://hibernate.atlassian.net/browse/HHH-18863">performance problems</a>.<br/>No way to overwrite the code since fields and methods are private.</td>
     <td>Update provides option to disable</td>
   </tr>
   <tr>
@@ -162,7 +162,7 @@ class MyApp {
     <td>Overlay</td>
   </tr>
   <tr>
-    <td><a href="https://github.com/quarkusio/quarkus/issues/16927">Quarkus - Connection to database during startup is hardcoded and can't be disabled</a><br/>Also: <a href="https://github.com/quarkusio/quarkus/issues/30002">quarkus#30002</a></td>
+    <td><a href="https://github.com/quarkusio/quarkus/issues/16927">Quarkus - Connecting to database during startup is hardcoded and can't be disabled</a><br/>Also: <a href="https://github.com/quarkusio/quarkus/issues/30002">quarkus#30002</a></td>
     <td>Serious malfunction, rendering functionality completely unusable.<br/>Everything is private and not overwriteable. Only possible way to patch it are bytecode modifications or copying the class and manually fixing it.</td>
     <td>As of 2025-05: None - You're screwed</td>
   </tr>
