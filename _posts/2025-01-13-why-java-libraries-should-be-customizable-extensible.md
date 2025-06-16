@@ -158,7 +158,7 @@ class MyApp {
   </tr>
   <tr>
     <td><a href="https://github.com/xdev-software/flyway-core-slim">Flyway-Core Slim</a></td>
-    <td><a href="https://github.com/flyway/flyway/blob/ba8b11c0272c744786e52049b0391710253ea7d2/flyway-core/src/main/java/org/flywaydb/core/internal/plugin/PluginRegister.java#L85-L104">Private methods</a> don't allow filtering out <a href="(https://github.com/flyway/flyway/issues/3893">unused things</a>.</td>
+    <td><a href="https://github.com/flyway/flyway/blob/ba8b11c0272c744786e52049b0391710253ea7d2/flyway-core/src/main/java/org/flywaydb/core/internal/plugin/PluginRegister.java#L85-L104">Private methods</a> don't allow filtering out <a href="https://github.com/flyway/flyway/issues/3893">unused things</a>.</td>
     <td>Overlay</td>
   </tr>
   <tr>
