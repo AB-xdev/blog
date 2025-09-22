@@ -163,8 +163,13 @@ class MyApp {
   </tr>
   <tr>
     <td><a href="https://github.com/quarkusio/quarkus/issues/16927">Quarkus - Connecting to database during startup is hardcoded and can't be disabled</a><br/>Also: <a href="https://github.com/quarkusio/quarkus/issues/30002">quarkus#30002</a></td>
-    <td>Serious malfunction, rendering functionality completely unusable.<br/>Everything is private and not overwriteable. Only possible way to patch it are bytecode modifications or copying the class and manually fixing it.</td>
-    <td>As of 2025-05: None - You're screwed</td>
+    <td>Serious malfunction, rendering functionality completely unusable.<br/>Everything is private and not overridable. Only possible way to patch it are bytecode modifications or copying the class and manually fixing it.</td>
+    <td><del>None - You're screwed.</del><br/>Update 6 months later: A fix was finally shipped</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/vaadin/flow/issues/22293">VaadinSecurityConfigurer is not extendable</a></td>
+    <td>Final class and private fields/methods</td>
+    <td>Wrapping of the configurer in another configurer required. Duplication of methods.</td>
   </tr>
 </table>
 
